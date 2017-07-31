@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Client WS</title>
-        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script>
             $(function(){
                 var conn = new WebSocket('ws://socket.picsiapps.com:2502');
