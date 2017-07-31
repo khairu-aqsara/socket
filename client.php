@@ -6,7 +6,7 @@
         <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script>
             $(function(){
-                var conn = new WebSocket('ws://localhost:8080');
+                var conn = new WebSocket('ws://socket.picsiapps.com:2502');
                 conn.onopen = function(e) {
                     console.log(e);
                     $("#status").html("Connection established!");

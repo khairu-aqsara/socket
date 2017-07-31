@@ -13,7 +13,7 @@ $server = IoServer::factory(
             new Server()
         )
     ),
-    8080
+    2502
 );
 
 $server->run();
