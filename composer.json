@@ -1,0 +1,21 @@
+{
+    "name": "khairu/socket",
+    "description": "Websocket",
+    "type": "project",
+    "require": {
+        "cboden/ratchet": "0.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khairu Aqsara Sudirman",
+            "email": "khairu.aqsara@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Khairu": "src"
+        }
+    }
+}
